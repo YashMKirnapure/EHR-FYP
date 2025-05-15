@@ -77,7 +77,8 @@ const DoctorConsultancy = () => {
           )
           .send({ from: formData.doctorAddress });
 
-        const response = await fetch("http://localhost:5000/send-prescription", {
+        // const response = await fetch("http://localhost:5000/send-prescription", {
+        const response = await fetch("https://ehr-fyp-1.onrender.com//send-prescription", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
