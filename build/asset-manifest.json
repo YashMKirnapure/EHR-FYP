@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.162e4101.css",
+    "main.js": "/static/js/main.07b5de38.js",
+    "static/js/787.341d521b.chunk.js": "/static/js/787.341d521b.chunk.js",
+    "static/media/hl.png": "/static/media/hl.07c5b794811dbfe79059.png",
+    "static/media/HomePage_Pic1.jpg": "/static/media/HomePage_Pic1.f7f7e8741550d1f09df6.jpg",
+    "static/media/HomePage_Pic5.jpg": "/static/media/HomePage_Pic5.6a0ac6981447d164c60d.jpg",
+    "static/media/HomePage_Pic3.jpg": "/static/media/HomePage_Pic3.7d1a81121d692d959a73.jpg",
+    "static/media/HomePage_Pic4.jpg": "/static/media/HomePage_Pic4.b3ee118ac6e57c53df72.jpg",
+    "static/media/background3.jpg": "/static/media/background3.9d628cfb4443cd4b4b28.jpg",
+    "static/media/patient.jpg": "/static/media/patient.af05b11df192fd4119f2.jpg",
+    "static/media/diagnostic.jpg": "/static/media/diagnostic.dfb465f80e25a7e4f6e1.jpg",
+    "static/media/healthchain_logo 4.jpg": "/static/media/healthchain_logo 4.02ead13520917f1783c8.jpg",
+    "static/media/doctor.jpg": "/static/media/doctor.6e6e036ec018da0ba7e3.jpg",
+    "index.html": "/index.html",
+    "main.162e4101.css.map": "/static/css/main.162e4101.css.map",
+    "main.07b5de38.js.map": "/static/js/main.07b5de38.js.map",
+    "787.341d521b.chunk.js.map": "/static/js/787.341d521b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.162e4101.css",
+    "static/js/main.07b5de38.js"
+  ]
+}

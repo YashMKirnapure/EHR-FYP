@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
+=======
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
+>>>>>>> 286b956eddc03ffd6c1e7e4ffc8e47d65a4fb609
