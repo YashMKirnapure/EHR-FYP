@@ -48,7 +48,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -130,7 +131,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -194,7 +196,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -218,7 +221,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -265,7 +269,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -314,7 +319,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"hhNumber\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"doctorName\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"walletAddress\",\"type\":\"address\"}],\"name\":\"DoctorRegistered\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"name\":\"doctorPermissions\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_hhNumber\",\"type\":\"string\"}],\"name\":\"getDoctorDetails\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"_walletAddress\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"_doctorName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_hospitalName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_dateOfBirth\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_gender\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_email\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_specialization\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_department\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_designation\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_workExperience\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_doctorNumber\",\"type\":\"string\"}],\"name\":\"getPatientList\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"patient_number\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"patient_name\",\"type\":\"string\"}],\"internalType\":\"struct DoctorRegistration.PatientList[]\",\"name\":\"\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_patientNumber\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_doctorNumber\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_patientName\",\"type\":\"string\"}],\"name\":\"grantPermission\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_patientNumber\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_doctorNumber\",\"type\":\"string\"}],\"name\":\"isPermissionGranted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_hhNumber\",\"type\":\"string\"}],\"name\":\"isRegisteredDoctor\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_doctorName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_hospitalName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_dateOfBirth\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_gender\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_email\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_hhNumber\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_specialization\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_department\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_designation\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_workExperience\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_password\",\"type\":\"string\"}],\"name\":\"registerDoctor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_patientNumber\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_doctorNumber\",\"type\":\"string\"}],\"name\":\"revokePermission\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_hhNumber\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_password\",\"type\":\"string\"}],\"name\":\"validatePassword\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DoctorRegistration.sol\":\"DoctorRegistration\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DoctorRegistration.sol\":{\"keccak256\":\"0x9ac0edcca4ec93b05e503be94e5797e1e5997cf6a2c6923713a3953e232ec370\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://33f08cad7b87a4150903429e5295e515c27010052686b134a7465b32415781eb\",\"dweb:/ipfs/QmatUnGtnjsvgH69PVZZqJDVvkSJEy297CXKAge1G96xHr\"]}},\"version\":1}",
@@ -20099,12 +20105,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x3bb1d14Ec022A043e907E5b0cb59A0164D43888F",
-      "transactionHash": "0x3b59f24f32f8bf67379e4bbb8c8ec973932bf8e4aa41f791fdd674763c0ac8d8"
+      "address": "0xDD7a07f9c0C61AB01c5dCDB5f993c1b1098D4Cb2",
+      "transactionHash": "0xc2608c64db5864a4db6063457955b98517385a4d2ad15282558b1a1a07f3327f"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-05-17T08:09:39.445Z",
+  "updatedAt": "2025-05-17T08:20:50.553Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},

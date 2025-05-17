@@ -42,7 +42,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_timeStamp\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_medicalRecordHash\",\"type\":\"string\"}],\"name\":\"addRecord\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getRecords\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"timeStamp\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"medicalRecordHash\",\"type\":\"string\"}],\"internalType\":\"struct UploadEhr.PatientRecord[]\",\"name\":\"\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/UploadEhr.sol\":\"UploadEhr\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/UploadEhr.sol\":{\"keccak256\":\"0xc4044e8ad4ad100e41c41e5f28ff963eca0d98d4a76f8cb2294e58f173b929fd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://98e1c17cfa11d6abc8cdac3d3dbeaab71dc9cf29ba7dc5c0a3ece0b82c28f0e8\",\"dweb:/ipfs/QmQWJAN45doneCiestrLkvbTtfEiVxzmxmbhgvAziBUXqT\"]}},\"version\":1}",
@@ -7136,12 +7137,13 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x8E163E676Aa84b3881bC05fC27f6940e5A00cAd9",
-      "transactionHash": "0x7345f3e5452305b555b28d68d403303b8da79fb3b4044d620b0e6f3bd701da44"
+      "address": "0xe87DC7a2eE1EA8a41467363FEfad7666C21Ff068",
+      "transactionHash": "0x540eb3a8e6b14883243e002d474b68e6b61d22d32f7e64f951429401e98cc8e5"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-05-17T08:09:39.490Z",
+  "updatedAt": "2025-05-17T08:20:51.148Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
