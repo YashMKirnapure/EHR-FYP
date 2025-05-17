@@ -81,8 +81,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -121,8 +120,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -146,8 +144,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"hhNumber\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"diagnosticName\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"walletAddress\",\"type\":\"address\"}],\"name\":\"DiagnosticRegistered\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_hhNumber\",\"type\":\"string\"}],\"name\":\"getDiagnosticDetails\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"_walletAddress\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"_diagnosticName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_hospitalName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_diagnosticLocation\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_email\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_hhNumber\",\"type\":\"string\"}],\"name\":\"isRegisteredDiagnostic\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_diagnosticName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_hospitalName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_diagnosticLocation\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_email\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_hhNumber\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_password\",\"type\":\"string\"}],\"name\":\"registerDiagnostic\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_hhNumber\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_password\",\"type\":\"string\"}],\"name\":\"validatePassword\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DiagnosticRegistration.sol\":\"DiagnosticRegistration\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DiagnosticRegistration.sol\":{\"keccak256\":\"0x110b75fb75cf7e4ad4e712c6fda48b6fe8a55b6913a87f18b29f73edac3e1a3b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6892336b61d9e41838775fd37550a7ff879ff8628c1824a8e155b7718d3a4881\",\"dweb:/ipfs/QmTtDmkrQkxEz6MxW2sNKmN4EKcByb7KpJLw9CGxewcwi4\"]}},\"version\":1}",
@@ -12012,8 +12009,7 @@
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-05-15T18:28:28.361Z",
-  "networkType": "ethereum",
+  "updatedAt": "2025-05-17T08:09:39.411Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -112,8 +112,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_recordId\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_doctorName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_patientName\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"_age\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"_gender\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_bloodGroup\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"_diagnosticAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_patientAddress\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"_cid\",\"type\":\"string\"}],\"name\":\"createEHR\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getRecords\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"recordId\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"doctorName\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"patientName\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"age\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"gender\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"bloodGroup\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"diagnosticAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"patientAddress\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"cid\",\"type\":\"string\"}],\"internalType\":\"struct DiagnosticForm.Record[]\",\"name\":\"\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/DiagnosticForm.sol\":\"DiagnosticForm\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DiagnosticForm.sol\":{\"keccak256\":\"0x8d7f2012724e638bb9be88240ac7199212cc5bd048515cd88119e7d9a7da8f2b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0b3ea7b8b9078569359d4c3b85a95a2fe9c48a914b58f2962329395c96ee4b0a\",\"dweb:/ipfs/QmRKEYbCE9rksfsWUWeo3qbvykgUXZnSbGtJnuKZTTG84Q\"]}},\"version\":1}",
@@ -10012,8 +10011,7 @@
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2025-05-15T18:28:28.647Z",
-  "networkType": "ethereum",
+  "updatedAt": "2025-05-17T08:09:39.396Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
